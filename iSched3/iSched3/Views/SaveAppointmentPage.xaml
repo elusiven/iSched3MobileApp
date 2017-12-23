@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             xmlns:l="clr-namespace:iSched3.ViewModels;assembly=iSched3"
+             xmlns:behaviors="clr-namespace:iSched3.Behaviors;assembly=iSched3"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="iSched3.Views.SaveAppointmentPage" Title="{Binding Title}">
+    <StackLayout Orientation="Vertical" Spacing="0" Padding="20,5,20,0">
+        <Label Text="Title"/>
+        <Entry Text="{Binding Name}">
+            <Entry.Behaviors>
+                <behaviors:MinLengthValidatorBehavior MinLength="5"/>
+            </Entry.Behaviors>
+        </Entry>
+        <Label Text="Comments"/>
+        <Editor Text="{Binding Comments}"/>
+        <Label Text="When does it start?"/>
+        <DatePicker Date="{Binding StartTime}" MinimumDate="{Binding CurrentDate}"/>
+        <TimePicker Time="{Binding StartTime2}"/>
+        <Label Text="When does it ends?"/>
+        <DatePicker Date="{Binding EndTime}" MinimumDate="{Binding CurrentDate}"/>
+        <TimePicker Time="{Binding EndTime2}"/>
+        <Label Text="Does it last all day?"/>
+        <Switch IsToggled="{Binding IsAllDay}"/>
+        <Label Text="Does it occur frequently?"/>
+        <Switch IsToggled="{Binding IsRecurrence}"/>
+        <Button Text="{Binding CommandText}" Command="{Binding SaveAppointmentCommand}"/>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,4116 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Syncfusion.SfSchedule.XForms</name>
+    </assembly>
+    <members>
+        <member name="T:Syncfusion.SfSchedule.XForms.DayLabelSettings">
+            <summary>
+            DayLabelSettings class is used to configure the properties of Labels for DayView.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.DayLabelSettings.DateFormat">
+            <summary>
+            The <c>DateFormat</c> property is used to define the format for date in the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.String"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.DayLabelSettings.DateFormatProperty">
+            <summary>
+            Gets or sets the <c>DateFormat</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.DayLabelSettings.DayFormat">
+            <summary>
+            The <c>DayFormat</c> property is used to define the format for day in the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.String"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.DayLabelSettings.DayFormatProperty">
+            <summary>
+            Gets or sets the <c>DayFormat</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.DayLabelSettings.DayLabelSize">
+            <summary>
+            The <c>DayLabelSize</c> property is used to define the size for DayLabel in the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Double"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.DayLabelSettings.DayLabelSizeProperty">
+            <summary>
+            Gets or sets the <c>DayLabelSize</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.DayLabelSettings.DateLabelSize">
+            <summary>
+            The <c>DateLabelSize</c> property is used to define the size for DateLabel in the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Double"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.DayLabelSettings.DateLabelSizeProperty">
+            <summary>
+            Gets or sets the <c>DateLabelSize</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.DayLabelSettings.TimeLabelSize">
+            <summary>
+            The <c>TimeLabelSize</c> property is used to define the size for TimeLabel in the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Double"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.DayLabelSettings.TimeLabelSizeProperty">
+            <summary>
+            Gets or sets the <c>TimeLabelSize</c> property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.DayLabelSettings.TimeLabelColorProperty">
+            <summary>
+            Gets or sets the TimeLabelColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.DayLabelSettings.OnTextColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>TextColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.DayLabelSettings.TimeLabelColor">
+            <summary>
+            Gets or sets the TimeLabelColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TimeLabelColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.DayLabelSettings.TimeFormat">
+            <summary>
+            The <c>TimeFormat</c> property is used to define the format for time in the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.String"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.DayLabelSettings.TimeFormatProperty">
+            <summary>
+            Gets or sets the <c>TimeFormat</c> property.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfSchedule.XForms.DayViewSettings">
+            <summary>
+            DayViewSettings class is used to configure all the properties of DayView in Schedule.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.DayViewSettings.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.SfSchedule.XForms.DayViewSettings"/> class.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.DayViewSettings.ShowAllDay">
+            <summary>
+            The <c>ShowAllDay</c> property is used to enable/disable AllDay in the DayView. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Boolean"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.DayViewSettings.ShowAllDayProperty">
+            <summary>
+            Gets or sets the <c>ShowAllDay</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.DayViewSettings.WorkStartHour">
+            <summary>
+            The <c>WorkStartHour</c> property is used to set the work start hour of DayView. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.DayViewSettings.WorkStartHourProperty">
+            <summary>
+            Gets or sets the <c>WorkStartHour</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.DayViewSettings.WorkEndHour">
+            <summary>
+            The <c>WorkEndHour</c> property is used to set the work end hour of DayView. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.DayViewSettings.WorkSEndHourProperty">
+            <summary>
+            Gets or sets the <c>WorkEndHour</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.DayViewSettings.NonAccessibleBlocks">
+            <summary>
+            The <c>NonAccessibleBlocks</c> property is used to set the Non Accessible Blocks in the DayView. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:Syncfusion.SfSchedule.XForms.NonAccessibleBlocksCollection"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.DayViewSettings.NonAccessibleBlocksProperty">
+            <summary>
+            Gets or sets the <c>NonAccessibleBlocks</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.DayViewSettings.DayLabelSettings">
+            <summary>
+            The <c>DayLabelSettings</c> property is used to define the Settings for DayView Labels. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="P:Syncfusion.SfSchedule.XForms.DayViewSettings.DayLabelSettings"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.DayViewSettings.DayLabelSettingsProperty">
+            <summary>
+            Gets or sets the <c>DayLabelSettings</c> property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.DayViewSettings.NonWorkingHoursTimeSlotColorProperty">
+            <summary>
+            Gets or sets the NonWorkingHoursTimeSlotColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.DayViewSettings.OnNonWorkingHoursTimeSlotColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>NonWorkingHoursTimeSlotColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.DayViewSettings.NonWorkingHoursTimeSlotColor">
+            <summary>
+            Gets or sets the NonWorkingHoursTimeSlotColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>DayViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>NonWorkingHoursTimeSlotColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.DayViewSettings.NonWorkingHoursTimeSlotBorderColorProperty">
+            <summary>
+            Gets or sets the NonWorkingHoursTimeSlotBorderColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.DayViewSettings.OnNonWorkingHoursTimeSlotBorderColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>NonWorkingHoursTimeSlotBorderColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.DayViewSettings.NonWorkingHoursTimeSlotBorderColor">
+            <summary>
+            Gets or sets the NonWorkingHoursTimeSlotBorderColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>DayViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>NonWorkingHoursTimeSlotBorderColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.DayViewSettings.TimeSlotColorProperty">
+            <summary>
+            Gets or sets the TimeSlotColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.DayViewSettings.OnTimeSlotColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>TimeSlotColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.DayViewSettings.TimeSlotColor">
+            <summary>
+            Gets or sets the TimeSlotColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>DayViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TimeSlotColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.DayViewSettings.TimeSlotBorderColorProperty">
+            <summary>
+            Gets or sets the TimeSlotBorderColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.DayViewSettings.OnTimeSlotBorderColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>TimeSlotBorderColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.DayViewSettings.TimeSlotBorderColor">
+            <summary>
+            Gets or sets the TimeSlotBorderColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>DayViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TimeSlotBorderColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.DayViewSettings.TimeSlotBorderStrokeWidthProperty">
+            <summary>
+            Gets or sets the TimeSlotBorderStrokeWidth. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.DayViewSettings.OnTimeSlotBorderStrokeWidthChanged(Xamarin.Forms.BindableObject,System.Int32,System.Int32)">
+            <summary>
+            Invoked whenever the <c>TimeSlotBorderStrokeWidth</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.DayViewSettings.TimeSlotBorderStrokeWidth">
+            <summary>
+            Gets or sets the TimeSlotBorderStrokeWidth. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>DayViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TimeSlotBorderStrokeWidth</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.DayViewSettings.VerticalLineColorProperty">
+            <summary>
+            Gets or sets the VerticalLineColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.DayViewSettings.OnVerticalLineColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>VerticalLineColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.DayViewSettings.VerticalLineColor">
+            <summary>
+            Gets or sets the VerticalLineColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>DayViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>VerticalLineColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.DayViewSettings.VerticalLineStrokeWidthProperty">
+            <summary>
+            Gets or sets the VerticalLineStrokeWidth. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.DayViewSettings.OnVerticalLineStrokeWidthChanged(Xamarin.Forms.BindableObject,System.Int32,System.Int32)">
+            <summary>
+            Invoked whenever the <c>VerticalLineStrokeWidth</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.DayViewSettings.VerticalLineStrokeWidth">
+            <summary>
+            Gets or sets the VerticalLineStrokeWidth. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>DayViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>VerticalLineStrokeWidth</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.DayViewSettings.AllDayAppointmentLayoutColorProperty">
+            <summary>
+            Gets or sets the AllDayAppointmentLayoutColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.DayViewSettings.OnAllDayAppointmentLayoutColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>AllDayAppointmentLayoutColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.DayViewSettings.AllDayAppointmentLayoutColor">
+            <summary>
+            Gets or sets the AllDayAppointmentLayoutColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>DayViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>AllDayAppointmentLayoutColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="T:Syncfusion.SfSchedule.XForms.ScheduleView">
+            <summary>
+            Specifies the ScheduleViews available 
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ScheduleView.DayView">
+            <summary>
+            This returns Day as Schedule View.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ScheduleView.WeekView">
+            <summary>
+            This returns Week as Schedule View.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ScheduleView.WorkWeekView">
+            <summary>
+            This returns WorkWeek as Schedule View.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ScheduleView.MonthView">
+            <summary>
+            This returns Month as Schedule View.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfSchedule.XForms.RecurrenceType">
+            <summary>
+            Specifies the RecurrenceTypes available.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceType.Daily">
+            <summary>
+            This specifies the recurrence as daily. 
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceType.Weekly">
+            <summary>
+            This specifies the recurrence as Weekly. 
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceType.Monthly">
+            <summary>
+            This specifies the recurrence as Monthly. 
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceType.Yearly">
+            <summary>
+            This specifies the recurrence as Yearly. 
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfSchedule.XForms.MonthNavigationDirections">
+            <summary>
+            Specifies the SFSwipeDirection available 
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthNavigationDirections.Horizontal">
+            <summary>
+            This returns Horizontal as SFSwipeDirection.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthNavigationDirections.Vertical">
+            <summary>
+            This returns Vertical as SFSwipeDirection.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfSchedule.XForms.ViewLayoutOptions">
+            <summary>
+            Specifies the ViewLayoutOptions 
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ViewLayoutOptions.Default">
+            <summary>
+            This returns Default as ViewLayoutOptions.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ViewLayoutOptions.Overlay">
+            <summary>
+            This returns Overlay as ViewLayoutOptions.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfSchedule.XForms.IDateNavigation">
+            <summary>
+            IDateNavigation is a interface which specifies the properties for navigation of date to either next or previous.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfSchedule.XForms.IRecurrenceBuilder">
+            <summary>
+            IRecurrenceBuilder is a interface which specifies the RRuleGenerator for ScheduleAppointment.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfSchedule.XForms.MonthLabelSettings">
+            <summary>
+            MonthLabelSettings class is used to configure the properties of Labels for MonthView.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.MonthLabelSettings.DateFormat">
+            <summary>
+            The <c>DateFormat</c> property is used to set the format for Date in the MonthView. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.String"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthLabelSettings.DateFormatProperty">
+            <summary>
+            Gets or sets the <c>DateFormat</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.MonthLabelSettings.DayFormat">
+            <summary>
+            The <c>DayFormat</c> property is used to set the format for Day in the MonthView. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.String"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthLabelSettings.DayFormatProperty">
+            <summary>
+            Gets or sets the <c>DayFormat</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.MonthLabelSettings.DayLabelSize">
+            <summary>
+            The <c>DayLabelSize</c> property is used to set the size for Daylabel in the MonthView. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Double"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthLabelSettings.DayLabelSizeProperty">
+            <summary>
+            Gets or sets the <c>DayLabelSize</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.MonthLabelSettings.DateLabelSize">
+            <summary>
+            The <c>DateLabelSize</c> property is used to set the size for DateLabel in the MonthView. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Double"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthLabelSettings.DateLabelSizeProperty">
+            <summary>
+            Gets or sets the <c>DateLabelSize</c> property.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfSchedule.XForms.MonthViewSettings">
+            <summary>
+            MonthViewSettings class is used to configure all the properties and events of MonthView.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.MonthViewSettings.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.SfSchedule.XForms.MonthViewSettings"/> class.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.MonthViewSettings.ShowAppointmentsInline">
+            <summary>
+            The <c>ShowAppointmentsInline</c> property is used to show the Appointments inline in MonthView. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Boolean"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthViewSettings.ShowAppointmentsInlineProperty">
+            <summary>
+            Gets or sets the <c>ShowAppointmentsInline</c> property.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:Syncfusion.SfSchedule.XForms.MonthViewSettings.MonthLabelSettings" -->
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthViewSettings.MonthViewLabelSettingsProperty">
+            <summary>
+            Gets or sets the <c>MonthLabelSettings</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.MonthViewSettings.VisibleCellAppointmentsCount">
+            <summary>
+            The <c>VisibleCellAppointmentsCount</c> property is used to set the visbile appointment count in the  MonthView Cell. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthViewSettings.VisibleCellAppointmentsCountProperty">
+            <summary>
+            Gets or sets the <c>VisibleCellAppointmentsCount</c> property.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:Syncfusion.SfSchedule.XForms.MonthViewSettings.BlackoutDates" -->
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthViewSettings.BlackoutDatesProperty">
+            <summary>
+            Gets or sets the <c>BlackoutDates</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.MonthViewSettings.ShowWeekNumber">
+            <summary>
+            The <c>ShowWeekNumber</c> property is used to enable/disable the WeekNumbers display in the month view. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Boolean"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthViewSettings.ShowWeekNumberProperty">
+            <summary>
+            Gets or sets the <c>ShowWeekNumber</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.MonthViewSettings.MonthNavigationDirection">
+            <summary>
+            The <c>MonthNavigationDirection</c> property is used to define the SwipeDirection of the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="P:Syncfusion.SfSchedule.XForms.MonthViewSettings.MonthNavigationDirection"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthViewSettings.MonthNavigationDirectionProperty">
+            <summary>
+            Gets or sets the <c>SwipeDirection</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.MonthViewSettings.WeekNumberStyle">
+            <summary>
+            The <c>WeekNumberStyle</c> property is used to set the format for Date in the MonthView. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="P:Syncfusion.SfSchedule.XForms.MonthViewSettings.WeekNumberStyle"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthViewSettings.WeekNumberStyleProperty">
+            <summary>
+            Gets or sets the <c>WeekNumberStyle</c> property.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfSchedule.XForms.NonAccessibleBlock">
+            <summary>
+            NonAccessibleBlock class is used to configure the properties of NonAccessibleBlock, which is used to represent cells that are not accessed.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.NonAccessibleBlock.StartTime">
+            <summary>
+            The <c>StartTime</c> property is used to set the Start Time for Non Accessible Block. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.NonAccessibleBlock.StartTimeProperty">
+            <summary>
+            Gets or sets the <c>StartTime</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.NonAccessibleBlock.EndTime">
+            <summary>
+            The <c>EndTime</c> property is used to set the End Time for Non Accessible Block. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.NonAccessibleBlock.EndTimeProperty">
+            <summary>
+            Gets or sets the <c>EndTime</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.NonAccessibleBlock.Text">
+            <summary>
+            The <c>Text</c> property is used to set the Text for Non Accessible Block. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.String"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.NonAccessibleBlock.TextProperty">
+            <summary>
+            Gets or sets the <c>Text</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.NonAccessibleBlock.Color">
+            <summary>
+            The <c>Color</c> property is used to set the Color for Non Accessible Block. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="P:Syncfusion.SfSchedule.XForms.NonAccessibleBlock.Color"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.NonAccessibleBlock.ColorProperty">
+            <summary>
+            Gets or sets the <c>Color</c> property.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfSchedule.XForms.NonAccessibleBlocksCollection">
+            <summary>
+            NonAccessibleBlocksCollection class used to represent collection of NonAccessibleBlock.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfSchedule.XForms.RecurrenceProperties">
+            <summary>
+            RecurrenceProperties class is used to configure the properties of Recurrence.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.RecurrenceRule">
+            <summary>
+            The <c>RecurrenceRule</c> property is used to to set the recurrenceRule detail. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.String"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.RecurrenceRuleProperty">
+            <summary>
+            Gets or sets the <c>RecurrenceRule</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.RecurrenceType">
+            <summary>
+            The <c>RecurrenceType</c> property is used to to set the Recurrence Type detail. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.RecurrenceType"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.RecurrenceTypeProperty">
+            <summary>
+            Gets or sets the <c>RecurrenceType</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.RangeStartDate">
+            <summary>
+            The <c>RangeStartDate</c> property is used to to set the start date of the recurrence range. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.DateTime"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.RangeStartDateProperty">
+            <summary>
+            Gets or sets the <c>RangeStartDate</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.RangeEndDate">
+            <summary>
+            The <c>RangeEndDate</c> property is used to to set the end date of the recurrence range. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.DateTime"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.RangeEndDateProperty">
+            <summary>
+            Gets or sets the <c>RangeEndDate</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.DailyNDays">
+            <summary>
+            The <c>DailyNDays</c> property is used to to set the dailyNdays for recurrence. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.DailyNDaysProperty">
+            <summary>
+            Gets or sets the <c>DailyNDays</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.GenericMonth">
+            <summary>
+            The <c>GenericMonth</c> property is used to to set the Generic Month for recurrence. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.GenericMonthProperty">
+            <summary>
+            Gets or sets the <c>GenericMonth</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.NthWeek">
+            <summary>
+            The <c>NthWeek</c> property is used to to set the Nth Week for recurrence. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.NthWeekProperty">
+            <summary>
+            Gets or sets the <c>NthWeek</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.SpecificMonth">
+            <summary>
+            The <c>SpecificMonth</c> property is used to to set the Specific Month for recurrence. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.SpecificMonthProperty">
+            <summary>
+            Gets or sets the <c>SpecificMonth</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.SpecificMonthDay">
+            <summary>
+            The <c>SpecificMonthDay</c> property is used to to set the Specific MonthDay for recurrence. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.SpecificMonthDayProperty">
+            <summary>
+            Gets or sets the <c>SpecificMonthDay</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.WeekDay">
+            <summary>
+            The <c>WeekDay</c> property is used to to set the WeekDay for recurrence. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.WeekDayProperty">
+            <summary>
+            Gets or sets the <c>WeekDay</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.WeeklyEveryNWeeks">
+            <summary>
+            The <c>WeeklyEveryNWeeks</c> property is used to to set the Weekly EveryNWeeks for recurrence. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.WeeklyEveryNWeeksProperty">
+            <summary>
+            Gets or sets the <c>WeeklyEveryNWeeks</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.MonthlyEveryNMonths">
+            <summary>
+            The <c>MonthlyEveryNMonths</c> property is used to to set the Monthly EveryNMonths for recurrence. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.MonthlyEveryNMonthsProperty">
+            <summary>
+            Gets or sets the <c>MonthlyEveryNMonths</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.MonthlyNthWeek">
+            <summary>
+            The <c>MonthlyNthWeek</c> property is used to to set the MonthlyNthWeek for recurrence. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.MonthlyNthWeekProperty">
+            <summary>
+            Gets or sets the <c>MonthlyNthWeek</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.MonthlySpecificMonthDay">
+            <summary>
+            The <c>MonthlySpecificMonthDay</c> property is used to to set the MonthlySpecificMonthDay for recurrence. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.MonthlySpecificMonthDayProperty">
+            <summary>
+            Gets or sets the <c>MonthlySpecificMonthDay</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.MonthlyWeekDay">
+            <summary>
+            The <c>MonthlyWeekDay</c> property is used to to set the MonthlyWeekDay for recurrence. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.MonthlyWeekDayProperty">
+            <summary>
+            Gets or sets the <c>MonthlyWeekDay</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.YearlyEveryNYears">
+            <summary>
+            The <c>YearlyEveryNYears</c> property is used to to set the YearlyEveryNYears for recurrence. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.YearlyEveryNYearsProperty">
+            <summary>
+            Gets or sets the <c>YearlyEveryNYears</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.YearlyGenericMonth">
+            <summary>
+            The <c>YearlyGenericMonth</c> property is used to to set the YearlyGenericMonth for recurrence. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.YearlyGenericMonthProperty">
+            <summary>
+            Gets or sets the <c>YearlyGenericMonth</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.YearlyNthWeek">
+            <summary>
+            The <c>YearlyNthWeek</c> property is used to to set the YearlyNthWeek for recurrence. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.YearlyNthWeekProperty">
+            <summary>
+            Gets or sets the <c>YearlyNthWeek</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.YearlySpecificMonth">
+            <summary>
+            The <c>YearlySpecificMonth</c> property is used to to set the YearlySpecificMonth for recurrence. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.YearlySpecificMonthProperty">
+            <summary>
+            Gets or sets the <c>YearlySpecificMonth</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.YearlySpecificMonthDay">
+            <summary>
+            The <c>YearlySpecificMonthDay</c> property is used to to set the YearlySpecificMonthDay for recurrence. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.YearlySpecificMonthDayProperty">
+            <summary>
+            Gets or sets the <c>YearlySpecificMonthDay</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.YearlyWeekDay">
+            <summary>
+            The <c>YearlyWeekDay</c> property is used to to set the YearlyWeekDay for recurrence. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.YearlyWeekDayProperty">
+            <summary>
+            Gets or sets the <c>YearlyWeekDay</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.EveryNYears">
+            <summary>
+            The <c>EveryNYears</c> property is used to to set the EveryNYears for recurrence. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.EveryNYearsProperty">
+            <summary>
+            Gets or sets the <c>EveryNYears</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.IsDailyEveryNDays">
+            <summary>
+            The <c>IsDailyEveryNDays</c> property is used to check whether is daily every n day is available or not. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Boolean"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.IsDailyEveryNDaysProperty">
+            <summary>
+            Gets or sets the <c>IsDailyEveryNDays</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.IsSpecific">
+            <summary>
+            The <c>IsSpecific</c> property is used to specify the recurrence is specific. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Boolean"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.IsSpecificProperty">
+            <summary>
+            Gets or sets the <c>IsSpecific</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.IsMonthlySpecific">
+            <summary>
+            The <c>IsMonthlySpecific</c> property is used to specify the recurrence is specific for month. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Boolean"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.IsMonthlySpecificProperty">
+            <summary>
+            Gets or sets the <c>IsMonthlySpecific</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.IsYearlySpecific">
+            <summary>
+            The <c>IsYearlySpecific</c> property is used to specify the recurrence is specific for year. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Boolean"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.IsYearlySpecificProperty">
+            <summary>
+            Gets or sets the <c>IsYearlySpecific</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.IsRangeEndDate">
+            <summary>
+            The <c>IsRangeEndDate</c> property is used to specify the recurrence has some end date. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Boolean"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.IsRangeEndDateProperty">
+            <summary>
+            Gets or sets the <c>IsRangeEndDate</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.IsRangeNoEndDate">
+            <summary>
+            The <c>IsRangeNoEndDate</c> property is used to specify that recurrence has no end date. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Boolean"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.IsRangeNoEndDateProperty">
+            <summary>
+            Gets or sets the <c>IsRangeNoEndDate</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.RangeRecurrenceCount">
+            <summary>
+            The <c>RangeRecurrenceCount</c> property is used to specify the range count for Recurrence. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.RangeRecurrenceCountProperty">
+            <summary>
+            Gets or sets the <c>RangeRecurrenceCount</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.IsRangeRecurrenceCount">
+            <summary>
+            The <c>IsRangeRecurrenceCount</c> property is used to specify the recurrence range count is specified or not. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Boolean"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.IsRangeRecurrenceCountProperty">
+            <summary>
+            Gets or sets the <c>IsRangeRecurrenceCount</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.IsWeeklySunday">
+            <summary>
+            The <c>IsWeeklySunday</c> property is used to specify whether weekly sunday is available or not. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Boolean"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.IsWeeklySundayProperty">
+            <summary>
+            Gets or sets the <c>IsWeeklySunday</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.IsWeeklyMonday">
+            <summary>
+            The <c>IsWeeklyMonday</c> property is used to specify whether Weekly Monday is available or not. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Boolean"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.IsWeeklyMondayProperty">
+            <summary>
+            Gets or sets the <c>IsWeeklyMonday</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.IsWeeklyTuesday">
+            <summary>
+            The <c>IsWeeklyTuesday</c> property is used to specify whether Weekly Tuesday is available or not. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Boolean"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.IsWeeklyTuesdayProperty">
+            <summary>
+            Gets or sets the <c>IsWeeklyTuesday</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.IsWeeklyWednesday">
+            <summary>
+            The <c>IsWeeklyWednesday</c> property is used to specify whether Weekly Wednesday is available or not. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Boolean"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.IsWeeklyWednesdayProperty">
+            <summary>
+            Gets or sets the <c>IsWeeklyWednesday</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.IsWeeklyThursday">
+            <summary>
+            The <c>IsWeeklyThursday</c> property is used to specify whether Weekly Thursday is available or not. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Boolean"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.IsWeeklyThursdayProperty">
+            <summary>
+            Gets or sets the <c>IsWeeklyThursday</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.IsWeeklyFriday">
+            <summary>
+            The <c>IsWeeklyFriday</c> property is used to specify whether Weekly Friday is available or not. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Boolean"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.IsWeeklyFridayProperty">
+            <summary>
+            Gets or sets the <c>IsWeeklyFriday</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.RecurrenceProperties.IsWeeklySaturday">
+            <summary>
+            The <c>IsWeeklySaturday</c> property is used to specify whether Weekly Saturday is available or not. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Boolean"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.RecurrenceProperties.IsWeeklySaturdayProperty">
+            <summary>
+            Gets or sets the <c>IsWeeklySaturday</c> property.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfSchedule.XForms.ScheduleAppointment">
+            <summary>
+            ScheduleAppointment class is used to represent all the properties of ScheduleAppointment.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.ScheduleAppointment.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.SfSchedule.XForms.ScheduleAppointment"/> class.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.ScheduleAppointment.StartTime">
+            <summary>
+            The <c>StartTime</c> property is used to set the Start Time of the Appointment. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.DateTime"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ScheduleAppointment.StartTimeProperty">
+            <summary>
+            Gets or sets the <c>StartTime</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.ScheduleAppointment.EndTime">
+            <summary>
+            The <c>EndTime</c> property is used to set the End Time of the Appointment. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.DateTime"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ScheduleAppointment.EndTimeProperty">
+            <summary>
+            Gets or sets the <c>EndTime</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.ScheduleAppointment.Subject">
+            <summary>
+            The <c>Subject</c> property is used to set the Subject for the Appointment. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.String"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ScheduleAppointment.SubjectProperty">
+            <summary>
+            Gets or sets the <c>Subject</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.ScheduleAppointment.Color">
+            <summary>
+            The <c>Color</c> property is used to set the Color for the Appointment. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="P:Syncfusion.SfSchedule.XForms.ScheduleAppointment.Color"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ScheduleAppointment.ColorProperty">
+            <summary>
+            Gets or sets the <c>Color</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.ScheduleAppointment.IsAllDay">
+            <summary>
+            The <c>IsAllDay</c> property is used to set whether the Appointment is all day or not. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Boolean"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ScheduleAppointment.IsAllDayProperty">
+            <summary>
+            Gets or sets the <c>IsAllDay</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.ScheduleAppointment.RecurrenceRule">
+            <summary>
+            The <c>RecurrenceRule</c> property is used to set the RRule for the Appointment. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.String"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ScheduleAppointment.RecurrenceRuleProperty">
+            <summary>
+            Gets or sets the <c>RecurrenceRule</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.ScheduleAppointment.Notes">
+            <summary>
+            The <c>Notes</c> property is used to add the notes for the Appointment. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.String"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ScheduleAppointment.NotesProperty">
+            <summary>
+            Gets or sets the <c>Notes</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.ScheduleAppointment.Location">
+            <summary>
+            The <c>Location</c> property is used to set the location for the Appointment. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.String"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ScheduleAppointment.LocationProperty">
+            <summary>
+            Gets or sets the <c>Location</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.ScheduleAppointment.IsRecursive">
+            <summary>
+            The <c>IsRecursive</c> property is used to set whether the appointment is recurrsive or not. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Boolean"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ScheduleAppointment.IsRecursiveProperty">
+            <summary>
+            Gets or sets the <c>IsRecursive</c> property.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfSchedule.XForms.ScheduleAppointmentCollection">
+            <summary>
+            ScheduleAppointmentCollection class used to represent the collection of ScheduleAppointment.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfSchedule.XForms.ScheduleAppointmentMapping">
+            <summary>
+            ScheduleAppointmentMapping class is used to represent the mapping properties for ScheduleAppointment.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.ScheduleAppointmentMapping.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.SfSchedule.XForms.ScheduleAppointmentMapping"/> class.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.ScheduleAppointmentMapping.StartTimeMapping">
+            <summary>
+            The <c>StartTimeMapping</c> property is used to map the StartTime detail of the Appointment. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.String"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ScheduleAppointmentMapping.StartTimePropertyMapping">
+            <summary>
+            Gets or sets the <c>StartTimeMapping</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.ScheduleAppointmentMapping.EndTimeMapping">
+            <summary>
+            The <c>EndTimeMapping</c> property is used to map the EndTime detail of the Appointment. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.String"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ScheduleAppointmentMapping.EndTimePropertyMapping">
+            <summary>
+            Gets or sets the <c>EndTimeMapping</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.ScheduleAppointmentMapping.SubjectMapping">
+            <summary>
+            The <c>SubjectMapping</c> property is used to map the Subject detail of the Appointment. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.String"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ScheduleAppointmentMapping.SubjectMappingProperty">
+            <summary>
+            Gets or sets the <c>SubjectMapping</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.ScheduleAppointmentMapping.ColorMapping">
+            <summary>
+            The <c>ColorMapping</c> property is used to map the Color for the Appointment. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.String"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ScheduleAppointmentMapping.ColorMappingProperty">
+            <summary>
+            Gets or sets the <c>ColorMapping</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.ScheduleAppointmentMapping.IsAllDayMapping">
+            <summary>
+            The <c>IsAllDayMapping</c> property is used to map IsAllDay for the Appointment. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.String"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ScheduleAppointmentMapping.IsAllDayMappingProperty">
+            <summary>
+            Gets or sets the <c>IsAllDayMapping</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.ScheduleAppointmentMapping.RecurrenceRuleMapping">
+            <summary>
+            The <c>RecurrenceRuleMapping</c> property is used to map RecurrenceRule for the Appointment. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.String"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ScheduleAppointmentMapping.RecurrenceRuleMappingProperty">
+            <summary>
+            Gets or sets the <c>RecurrenceRuleMapping</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.ScheduleAppointmentMapping.NotesMapping">
+            <summary>
+            The <c>NotesMapping</c> property is used to map Notes detail for the Appointment. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.String"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ScheduleAppointmentMapping.NotesMappingProperty">
+            <summary>
+            Gets or sets the <c>NotesMapping</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.ScheduleAppointmentMapping.LocationMapping">
+            <summary>
+            The <c>LocationMapping</c> property is used to map Location detail for the Appointment. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.String"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ScheduleAppointmentMapping.LocationMappingProperty">
+            <summary>
+            Gets or sets the <c>LocationMapping</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.ScheduleAppointmentMapping.IsRecursiveMapping">
+            <summary>
+            The <c>IsRecursiveMapping</c> property is used to map IsRecursive property of the ScheduleAppointment. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.String"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ScheduleAppointmentMapping.IsRecursiveMappingProperty">
+            <summary>
+            Gets or sets the <c>IsRecursiveMapping</c> property.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfSchedule.XForms.NameSpaceDoc">
+            <summary>
+            SfSchedule control is applicable in this namespace.
+            </summary>	
+        </member>
+        <member name="T:Syncfusion.SfSchedule.XForms.SfSchedule">
+            <summary>
+            Represents the SfSchedule that provides simple method to plan a process or list of events in a particular time.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.SfSchedule.XForms.SfSchedule.ScheduleCellTapped">
+            <summary>
+            ScheduleCellTapped event is raised on tapping the schedule cells.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.SfSchedule.XForms.SfSchedule.MonthInlineAppointmentTapped">
+            <summary>
+            OnVisibleDatesChanged event is raised while visibledates Changed.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.SfSchedule.XForms.SfSchedule.VisibleDatesChangedEvent">
+            <summary>
+            VisibleDatesChanged event is raised while visibledates Changed.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.SfSchedule.XForms.SfSchedule.OnAppointmentLoadedEvent">
+            <summary>
+            AppointmentTemplateChanged event is raised while Appointments Changed.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.SfSchedule.XForms.SfSchedule.OnMonthInlineLoadedEvent">
+            <summary>
+            OnMonthInlineLoaded event is raised while Month cell Changed.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.SfSchedule.XForms.SfSchedule.OnMonthInlineAppointmentLoadedEvent">
+            <summary>
+            OnMonthInlineAppointmentLoaded event is raised while MonthInlineAppointment Changed.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.SfSchedule.XForms.SfSchedule.OnMonthCellLoadedEvent">
+            <summary>
+            OnMonthCellLoaded event is raised while Month cell Changed.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.ScheduleView">
+            <summary>
+            The <c>ScheduleView</c> property is used to define the View of the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="P:Syncfusion.SfSchedule.XForms.SfSchedule.ScheduleView"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.ScheduleViewProperty">
+            <summary>
+            Gets or sets the <c>ScheduleView</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.ShowAppointmentsInline">
+            <summary>
+            The <c>ShowAppointmentsInline</c> property is used to enable/disable the inline appointments view. This is a bindable property.
+            </summary>
+            <remarks>It's applicable in MonthView, WeekView and WorkWeekView for WindowsPhone, whereas only for MonthView in Android and iOS.</remarks>
+            <value>This property takes the <see cref="T:System.Boolean"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.ShowAppointmentsInlineProperty">
+            <summary>
+            Gets or sets the <c>ShowAppointmentsInline</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.DataSource">
+            <summary>
+            The <c>DataSource</c> property is used for adding appointments to Schedule. This is a bindable property.
+            </summary>
+            <remarks>DataSource can take IEnumarable collection of both ScheduleAppointment or custom class. When custom class collection is provided, it is necessary to map the custom class with schedule using AppointmentMapping.</remarks>
+            <value>This property takes the <see cref="T:System.Collections.IEnumerable"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.DataSourceProperty">
+            <summary>
+            Gets or sets the <c>DataSource</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.AppointmentMapping">
+            <summary>
+            The <c>AppointmentMapping</c> property is used for Mapping the Custom appointment class with the Schedule appointment. This is a bindable property.
+            </summary>
+            <remarks>AppointmentMapping need to be specified, when custom class collection is provided as DataSource for Schedule.</remarks>
+            <value>This property takes the <see cref="T:Syncfusion.SfSchedule.XForms.ScheduleAppointmentMapping"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.AppointmentMappingProperty">
+            <summary>
+            Gets or sets the <c>AppointmentMapping</c> property.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:Syncfusion.SfSchedule.XForms.SfSchedule.VisibleDates" -->
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.VisibleDatesProperty">
+            <summary>
+            Gets or sets the <c>VisibleDates</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.Locale">
+            <summary>
+            The <c>Locale</c> property is used for Specifying the localization language for the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.String"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.LocaleProperty">
+            <summary>
+            Gets or sets the <c>Locale</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.EnableNavigation">
+            <summary>
+            The <c>EnableNavigation</c> property is used to enable or disable date navigation in the schedule using UI. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Boolean"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.EnableNavigationProperty">
+            <summary>
+            Gets or sets the <c>EnableNavigation</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.DayViewSettings">
+            <summary>
+            The <c>DayViewSettings</c> property is used to configure the Day View in the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="P:Syncfusion.SfSchedule.XForms.SfSchedule.DayViewSettings"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.DayViewSettingsProperty">
+            <summary>
+            Gets or sets the <c>DayViewSettings</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.InternalDayViewSettings">
+            <summary>
+            The <c>DayViewSettings</c> property is used to configure the Internal DayView in the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="P:Syncfusion.SfSchedule.XForms.SfSchedule.DayViewSettings"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.InternalDayViewSettingsProperty">
+            <summary>
+            Gets or sets the <c>DayViewSettings</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.WeekViewSettings">
+            <summary>
+            The <c>WeekViewSettings</c> property is used to configure the Week View in the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="P:Syncfusion.SfSchedule.XForms.SfSchedule.WeekViewSettings"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.WeekViewSettingsProperty">
+            <summary>
+            Gets or sets the <c>WeekViewSettings</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.WorkWeekViewSettings">
+            <summary>
+            The <c>WorkWeekViewSettings</c> property is used to configure the WorkWeek View in the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="P:Syncfusion.SfSchedule.XForms.SfSchedule.WorkWeekViewSettings"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.WorkWeekViewSettingsProperty">
+            <summary>
+            Gets or sets the <c>WorkWeekViewSettings</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.MonthViewSettings">
+            <summary>
+            The <c>MonthViewSettings</c> property is used to configure the Month View in the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="P:Syncfusion.SfSchedule.XForms.SfSchedule.MonthViewSettings"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.MonthViewSettingsProperty">
+            <summary>
+            Gets or sets the <c>MonthViewSettings</c> property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.MoveToDateProperty">
+            <summary>
+            Gets or sets the <c>MoveToDate</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.ScheduleHeaderDateFormat">
+            <summary>
+            The <c>ScheduleHeaderDateFormat</c> property is used to define the format for Internal Schedule Header. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.String"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.ScheduleHeaderDateFormatProperty">
+            <summary>
+            Gets or sets the <c>ScheduleHeaderDateFormat</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.ScheduleHeaderDateSize">
+            <summary>
+            The <c>ScheduleHeaderDateSize</c> property is used to define the DateLabel Size for Internal Schedule Header. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.ScheduleHeaderDateSizeProperty">
+            <summary>
+            Gets or sets the <c>ScheduleHeaderDateSize</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.FirstDayOfWeek">
+            <summary>
+            The <c>FirstDayOfWeek</c> property is used to define the first Day of Week in the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.FirstDayOfWeekProperty">
+            <summary>
+            Gets or sets the <c>FirstDayOfWeek</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.MinDisplayDate">
+            <summary>
+            The <c>MinDisplayDate</c> property is used to Set the Minimum Date to Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.DateTime"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.MinDisplayDateProperty">
+            <summary>
+            Gets or sets the <c>MinDisplayDate</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.MaxDisplayDate">
+            <summary>
+            The <c>MaxDisplayDate</c> property is used to Set the Maximum Date to Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.DateTime"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.MaxDisplayDateProperty">
+            <summary>
+            Gets or sets the <c>MaxDisplayDate</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.TimeInterval">
+            <summary>
+            The <c>TimeInterval</c> property is used to Set the TimeInterval to Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.DateTime"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.TimeIntervalProperty">
+            <summary>
+            Gets or sets the <c>TimeInterval</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.TimeIntervalHeight">
+            <summary>
+            The <c>TimeInterval</c> property is used to Set the TimeInterval to Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.DateTime"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.TimeIntervalHeightProperty">
+            <summary>
+            Gets or sets the <c>TimeInterval</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.AppointmentStyle">
+            <summary>
+            The <c>AppointmentStyle</c> property is used to Set the AppointmentStyle to Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="P:Syncfusion.SfSchedule.XForms.SfSchedule.AppointmentStyle"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.AppointmentStyleProperty">
+            <summary>
+            Gets or sets the <c>AppointmentStyle</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.MonthCellStyle">
+            <summary>
+            The <c>MonthCellStyle</c> property is used to Set the style for month cells. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="P:Syncfusion.SfSchedule.XForms.SfSchedule.MonthCellStyle"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.MonthCellStyleProperty">
+            <summary>
+            Gets or sets the <c>MonthViewCellStyle</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.HeaderStyle">
+            <summary>
+            The <c>HeaderStyle</c> property is used to Set the HeaderStyle to Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="P:Syncfusion.SfSchedule.XForms.SfSchedule.HeaderStyle"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.HeaderStyleProperty">
+            <summary>
+            Gets or sets the <c>HeaderStyle</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.SelectionStyle">
+            <summary>
+            The <c>AppointmentStyle</c> property is used to Set the AppointmentStyle to Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="P:Syncfusion.SfSchedule.XForms.SfSchedule.AppointmentStyle"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.SelectionStyleProperty">
+            <summary>
+            Gets or sets the <c>SelectionStyle</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.SelectionView">
+            <summary>
+            The <c>SelectionView</c> property is used to Set the Selection View to Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:Xamarin.Forms.View"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.SelectionViewProperty">
+            <summary>
+            Gets or sets the <c>SelectionView</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.ViewHeaderStyle">
+            <summary>
+            The <c>ViewHeaderStyle</c> property is used to Set the ViewHeaderStyle to Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="P:Syncfusion.SfSchedule.XForms.SfSchedule.ViewHeaderStyle"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.ViewHeaderStyleProperty">
+            <summary>
+            Gets or sets the <c>ViewHeaderStyle</c> property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.HeaderHeightProperty">
+            <summary>
+            Gets or sets the HeaderHeight. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.SfSchedule.OnHeaderHeightChanged(Xamarin.Forms.BindableObject,System.Double,System.Double)">
+            <summary>
+            Invoked whenever the <c>HeaderHeight</c> property changes.
+            </summary>
+            <param name="bindable"></param>80
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.HeaderHeight">
+            <summary>
+            Gets or sets the HeaderHeight. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>HeaderHeight</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.ViewHeaderHeightProperty">
+            <summary>
+            Gets or sets the ViewHeaderHeight. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.SfSchedule.OnViewHeaderHeightChanged(Xamarin.Forms.BindableObject,System.Double,System.Double)">
+            <summary>
+            Invoked whenever the <c>ViewHeaderHeight</c> property changes.
+            </summary>
+            <param name="bindable"></param>80
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.ViewHeaderHeight">
+            <summary>
+            Gets or sets the ViewHeaderHeight. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>HeaderHeight</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.InlineViewProperty">
+            <summary>
+            Gets or sets the InlineView. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.SfSchedule.OnInlineViewChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.View,Xamarin.Forms.View)">
+            <summary>
+            Invoked whenever the <c>InlineView</c> property changes.
+            </summary>
+            <param name="bindable"></param>80
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.InlineView">
+            <summary>
+            Gets or sets the InlineView. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>InlineView</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.AppointmentViewLayout">
+            <summary>
+            The <c>AppointmentViewLayout</c> property is used to define the View of the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="P:Syncfusion.SfSchedule.XForms.SfSchedule.AppointmentViewLayout"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.AppointmentViewLayoutProperty">
+            <summary>
+            Gets or sets the <c>AppointmentViewLayout</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.MonthCellViewLayout">
+            <summary>
+            The <c>MonthCellViewLayout</c> property is used to define the View of the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="P:Syncfusion.SfSchedule.XForms.SfSchedule.MonthCellViewLayout"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.MonthCellViewLayoutProperty">
+            <summary>
+            Gets or sets the <c>MonthCellViewLayout</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SfSchedule.InlineViewLayout">
+            <summary>
+            The <c>InlineViewLayout</c> property is used to define the View of the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="P:Syncfusion.SfSchedule.XForms.SfSchedule.InlineViewLayout"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SfSchedule.InlineViewLayoutProperty">
+            <summary>
+            Gets or sets the <c>InlineViewLayout</c> property.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfSchedule.XForms.ScheduleTappedEventArgs">
+            <summary>
+            ScheduleTappedEventArgs class represents properties of ScheduleTappedEvent.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfSchedule.XForms.VisibleDatesChangedEventArgs">
+            <summary>
+            VisibleDatesChangedEventArgs class represents properties of VisibleDatesChangedEvent.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfSchedule.XForms.WeekLabelSettings">
+            <summary>
+            WeekLabelSettings class is used to configure the properties of Labels for WeekView.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WeekLabelSettings.DateFormat">
+            <summary>
+            The <c>DateFormat</c> property is used to define the format for date in the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.String"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WeekLabelSettings.DateFormatProperty">
+            <summary>
+            Gets or sets the <c>DateFormat</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WeekLabelSettings.DayFormat">
+            <summary>
+            The <c>DayFormat</c> property is used to define the format for day in the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.String"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WeekLabelSettings.DayFormatProperty">
+            <summary>
+            Gets or sets the <c>DayFormat</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WeekLabelSettings.DayLabelSize">
+            <summary>
+            The <c>DayLabelSize</c> property is used to define the size for DayLabel in the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Double"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WeekLabelSettings.DayLabelSizeProperty">
+            <summary>
+            Gets or sets the <c>DayLabelSize</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WeekLabelSettings.DateLabelSize">
+            <summary>
+            The <c>DateLabelSize</c> property is used to define the size for DateLabel in the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Double"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WeekLabelSettings.DateLabelSizeProperty">
+            <summary>
+            Gets or sets the <c>DateLabelSize</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WeekLabelSettings.TimeLabelSize">
+            <summary>
+            The <c>TimeLabelSize</c> property is used to define the size for TimeLabel in the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Double"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WeekLabelSettings.TimeLabelSizeProperty">
+            <summary>
+            Gets or sets the <c>TimeLabelSize</c> property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WeekLabelSettings.TimeLabelColorProperty">
+            <summary>
+            Gets or sets the TimeLabelColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.WeekLabelSettings.OnTextColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>TextColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WeekLabelSettings.TimeLabelColor">
+            <summary>
+            Gets or sets the TimeLabelColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WeekLabelSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TimeLabelColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WeekLabelSettings.TimeFormat">
+            <summary>
+            The <c>TimeFormat</c> property is used to define the format for time in the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.String"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WeekLabelSettings.TimeFormatProperty">
+            <summary>
+            Gets or sets the <c>TimeFormat</c> property.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfSchedule.XForms.WeekViewSettings">
+            <summary>
+            WeekViewSettings class is used to configure all the properties of WeekView.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.WeekViewSettings.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.SfSchedule.XForms.WeekViewSettings"/> class.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WeekViewSettings.WorkStartHour">
+            <summary>
+            The <c>WorkStartHour</c> property is used to set the work start hour of WeekView. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WeekViewSettings.WorkStartHourProperty">
+            <summary>
+            Gets or sets the <c>WorkStartHour</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WeekViewSettings.WorkEndHour">
+            <summary>
+            The <c>WorkEndHour</c> property is used to set the work end hour of Week View. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WeekViewSettings.WorkEndHourProperty">
+            <summary>
+            Gets or sets the <c>WorkEndHour</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WeekViewSettings.NonAccessibleBlocks">
+            <summary>
+            The <c>NonAccessibleBlocks</c> property is used to set the Non Accessible Blocks in the WeekView. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:Syncfusion.SfSchedule.XForms.NonAccessibleBlocksCollection"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WeekViewSettings.NonAccessibleBlocksProperty">
+            <summary>
+            Gets or sets the <c>NonAccessibleBlocks</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WeekViewSettings.WeekLabelSettings">
+            <summary>
+            The <c>WeekLabelSettings</c> property is used to define the Settings for WeekView Labels. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="P:Syncfusion.SfSchedule.XForms.WeekViewSettings.WeekLabelSettings"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WeekViewSettings.weekLabelSettingsProperty">
+            <summary>
+            Gets or sets the <c>WeekLabelSettings</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WeekViewSettings.ShowAllDay">
+            <summary>
+            The <c>ShowAllDay</c> property is used to enable/disable AllDay in the WeekView. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Boolean"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WeekViewSettings.ShowAllDayProperty">
+            <summary>
+            Gets or sets the <c>ShowAllDay</c> property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WeekViewSettings.NonWorkingHoursTimeSlotColorProperty">
+            <summary>
+            Gets or sets the NonWorkingHoursTimeSlotColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.WeekViewSettings.OnNonWorkingHoursTimeSlotColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>NonWorkingHoursTimeSlotColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WeekViewSettings.NonWorkingHoursTimeSlotColor">
+            <summary>
+            Gets or sets the NonWorkingHoursTimeSlotColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>NonWorkingHoursTimeSlotColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WeekViewSettings.NonWorkingHoursTimeSlotBorderColorProperty">
+            <summary>
+            Gets or sets the NonWorkingHoursTimeSlotBorderColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.WeekViewSettings.OnNonWorkingHoursTimeSlotBorderColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>NonWorkingHoursTimeSlotBorderColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WeekViewSettings.NonWorkingHoursTimeSlotBorderColor">
+            <summary>
+            Gets or sets the NonWorkingHoursTimeSlotBorderColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>NonWorkingHoursTimeSlotBorderColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WeekViewSettings.TimeSlotColorProperty">
+            <summary>
+            Gets or sets the TimeSlotColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.WeekViewSettings.OnTimeSlotColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>TimeSlotColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WeekViewSettings.TimeSlotColor">
+            <summary>
+            Gets or sets the TimeSlotColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TimeSlotColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WeekViewSettings.TimeSlotBorderColorProperty">
+            <summary>
+            Gets or sets the TimeSlotBorderColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.WeekViewSettings.OnTimeSlotBorderColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>TimeSlotBorderColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WeekViewSettings.TimeSlotBorderColor">
+            <summary>
+            Gets or sets the TimeSlotBorderColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TimeSlotBorderColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WeekViewSettings.TimeSlotBorderStrokeWidthProperty">
+            <summary>
+            Gets or sets the TimeSlotBorderStrokeWidth. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.WeekViewSettings.OnTimeSlotBorderStrokeWidthChanged(Xamarin.Forms.BindableObject,System.Int32,System.Int32)">
+            <summary>
+            Invoked whenever the <c>TimeSlotBorderStrokeWidth</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WeekViewSettings.TimeSlotBorderStrokeWidth">
+            <summary>
+            Gets or sets the TimeSlotBorderStrokeWidth. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TimeSlotBorderStrokeWidth</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WeekViewSettings.VerticalLineColorProperty">
+            <summary>
+            Gets or sets the VerticalLineColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.WeekViewSettings.OnVerticalLineColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>VerticalLineColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WeekViewSettings.VerticalLineColor">
+            <summary>
+            Gets or sets the VerticalLineColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>VerticalLineColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WeekViewSettings.VerticalLineStrokeWidthProperty">
+            <summary>
+            Gets or sets the VerticalLineStrokeWidth. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.WeekViewSettings.OnVerticalLineStrokeWidthChanged(Xamarin.Forms.BindableObject,System.Int32,System.Int32)">
+            <summary>
+            Invoked whenever the <c>VerticalLineStrokeWidth</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WeekViewSettings.VerticalLineStrokeWidth">
+            <summary>
+            Gets or sets the VerticalLineStrokeWidth. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>VerticalLineStrokeWidth</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WeekViewSettings.AllDayAppointmentLayoutColorProperty">
+            <summary>
+            Gets or sets the AllDayAppointmentLayoutColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.WeekViewSettings.OnAllDayAppointmentLayoutColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>AllDayAppointmentLayoutColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WeekViewSettings.AllDayAppointmentLayoutColor">
+            <summary>
+            Gets or sets the AllDayAppointmentLayoutColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>AllDayAppointmentLayoutColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="T:Syncfusion.SfSchedule.XForms.WorkWeekLabelSettings">
+            <summary>
+            WorkWeekLabelSettings class is used to configure the properties of Labels for WorkWeekView.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WorkWeekLabelSettings.DateFormat">
+            <summary>
+            The <c>DateFormat</c> property is used to define the format for date in the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.String"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WorkWeekLabelSettings.DateFormatProperty">
+            <summary>
+            Gets or sets the <c>DateFormat</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WorkWeekLabelSettings.DayFormat">
+            <summary>
+            The <c>DayFormat</c> property is used to define the format for day in the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.String"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WorkWeekLabelSettings.DayFormatProperty">
+            <summary>
+            Gets or sets the <c>DayFormat</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WorkWeekLabelSettings.DayLabelSize">
+            <summary>
+            The <c>DayLabelSize</c> property is used to define the size for DayLabel in the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Double"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WorkWeekLabelSettings.DayLabelSizeProperty">
+            <summary>
+            Gets or sets the <c>DayLabelSize</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WorkWeekLabelSettings.DateLabelSize">
+            <summary>
+            The <c>DateLabelSize</c> property is used to define the size for DateLabel in the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Double"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WorkWeekLabelSettings.DateLabelSizeProperty">
+            <summary>
+            Gets or sets the <c>DateLabelSize</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WorkWeekLabelSettings.TimeLabelSize">
+            <summary>
+            The <c>TimeLabelSize</c> property is used to define the size for TimeLabel in the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Double"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WorkWeekLabelSettings.TimeLabelSizeProperty">
+            <summary>
+            Gets or sets the <c>TimeLabelSize</c> property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WorkWeekLabelSettings.TimeLabelColorProperty">
+            <summary>
+            Gets or sets the TimeLabelColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.WorkWeekLabelSettings.OnTextColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>TextColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WorkWeekLabelSettings.TimeLabelColor">
+            <summary>
+            Gets or sets the TimeLabelColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TimeLabelColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WorkWeekLabelSettings.TimeFormat">
+            <summary>
+            The <c>TimeFormat</c> property is used to define the format for time in the Schedule. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.String"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WorkWeekLabelSettings.TimeFormatProperty">
+            <summary>
+            Gets or sets the <c>TimeFormat</c> property.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings">
+            <summary>
+            WorkWeekViewSettings class is used to configure all the properties of WorkWeekView.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings"/> class.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.WorkStartHour">
+            <summary>
+            The <c>WorkStartHour</c> property is used to set the work start hour of WorkWeekView. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.WorkStartHourProperty">
+            <summary>
+            Gets or sets the <c>WorkStartHour</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.WorkEndHour">
+            <summary>
+            The <c>WorkEndHour</c> property is used to set the work end hour of WorkWeek View. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Int32"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.WorkEndHourProperty">
+            <summary>
+            Gets or sets the <c>WorkEndHour</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.NonAccessibleBlocks">
+            <summary>
+            The <c>NonAccessibleBlocks</c> property is used to set the Non Accessible Blocks in the WorkWeekView. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:Syncfusion.SfSchedule.XForms.NonAccessibleBlocksCollection"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.NonAccessibleBlocksProperty">
+            <summary>
+            Gets or sets the <c>NonAccessibleBlocks</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.WorkWeekLabelSettings">
+            <summary>
+            The <c>WorkWeekLabelSettings</c> property is used to define the Settings for WorkWeekView Labels. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="P:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.WorkWeekLabelSettings"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.workWeekLabelSettingsProperty">
+            <summary>
+            Gets or sets the <c>WorkWeekLabelSettings</c> property.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.ShowAllDay">
+            <summary>
+            The <c>ShowAllDay</c> property is used to enable/disable AllDay in the WorkWeekView. This is a bindable property.
+            </summary>
+            <value>This property takes the <see cref="T:System.Boolean"/> value.</value>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.ShowAllDayProperty">
+            <summary>
+            Gets or sets the <c>ShowAllDay</c> property.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.NonWorkingsDays" -->
+        <member name="F:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.NonWorkingsDaysProperty">
+            <summary>
+            Gets or sets the <c>NonWorkingsDays</c> property.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.NonWorkingHoursTimeSlotColorProperty">
+            <summary>
+            Gets or sets the NonWorkingHoursTimeSlotColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.OnNonWorkingHoursTimeSlotColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>NonWorkingHoursTimeSlotColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.NonWorkingHoursTimeSlotColor">
+            <summary>
+            Gets or sets the NonWorkingHoursTimeSlotColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>NonWorkingHoursTimeSlotColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.NonWorkingHoursTimeSlotBorderColorProperty">
+            <summary>
+            Gets or sets the NonWorkingHoursTimeSlotBorderColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.OnNonWorkingHoursTimeSlotBorderColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>NonWorkingHoursTimeSlotBorderColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.NonWorkingHoursTimeSlotBorderColor">
+            <summary>
+            Gets or sets the NonWorkingHoursTimeSlotBorderColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>NonWorkingHoursTimeSlotBorderColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.TimeSlotColorProperty">
+            <summary>
+            Gets or sets the TimeSlotColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.OnTimeSlotColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>TimeSlotColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.TimeSlotColor">
+            <summary>
+            Gets or sets the TimeSlotColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TimeSlotColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.TimeSlotBorderColorProperty">
+            <summary>
+            Gets or sets the TimeSlotBorderColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.OnTimeSlotBorderColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>TimeSlotBorderColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.TimeSlotBorderColor">
+            <summary>
+            Gets or sets the TimeSlotBorderColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TimeSlotBorderColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.TimeSlotBorderStrokeWidthProperty">
+            <summary>
+            Gets or sets the TimeSlotBorderStrokeWidth. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.OnTimeSlotBorderStrokeWidthChanged(Xamarin.Forms.BindableObject,System.Int32,System.Int32)">
+            <summary>
+            Invoked whenever the <c>TimeSlotBorderStrokeWidth</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.TimeSlotBorderStrokeWidth">
+            <summary>
+            Gets or sets the TimeSlotBorderStrokeWidth. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TimeSlotBorderStrokeWidth</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.VerticalLineColorProperty">
+            <summary>
+            Gets or sets the VerticalLineColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.OnVerticalLineColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>VerticalLineColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.VerticalLineColor">
+            <summary>
+            Gets or sets the VerticalLineColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>VerticalLineColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.VerticalLineStrokeWidthProperty">
+            <summary>
+            Gets or sets the VerticalLineStrokeWidth. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.OnVerticalLineStrokeWidthChanged(Xamarin.Forms.BindableObject,System.Int32,System.Int32)">
+            <summary>
+            Invoked whenever the <c>VerticalLineStrokeWidth</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.VerticalLineStrokeWidth">
+            <summary>
+            Gets or sets the VerticalLineStrokeWidth. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>VerticalLineStrokeWidth</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.AllDayAppointmentLayoutColorProperty">
+            <summary>
+            Gets or sets the AllDayAppointmentLayoutColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.OnAllDayAppointmentLayoutColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>AllDayAppointmentLayoutColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WorkWeekViewSettings.AllDayAppointmentLayoutColor">
+            <summary>
+            Gets or sets the AllDayAppointmentLayoutColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>AllDayAppointmentLayoutColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.AppointmentStyle.TextColorProperty">
+            <summary>
+            Gets or sets the TextColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.AppointmentStyle.OnTextColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>TextColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.AppointmentStyle.TextColor">
+            <summary>
+            Gets or sets the TextColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TextColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.AppointmentStyle.TextSizeProperty">
+            <summary>
+            Gets or sets the TextSize. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.AppointmentStyle.OnTextSizeChanged(Xamarin.Forms.BindableObject,System.Double,System.Double)">
+            <summary>
+            Invoked whenever the <c>NonWorkingHoursTimeSlotBorderColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.AppointmentStyle.TextSize">
+            <summary>
+            Gets or sets the TextSize. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TextSize</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.AppointmentStyle.TextStyleProperty">
+            <summary>
+            Gets or sets the TextStyle. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.AppointmentStyle.OnTextStyleChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Font,Xamarin.Forms.Font)">
+            <summary>
+            Invoked whenever the <c>TextStyle</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.AppointmentStyle.TextStyle">
+            <summary>
+            Gets or sets the TextStyle. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TextStyle</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.AppointmentStyle.BorderWidthProperty">
+            <summary>
+            Gets or sets the BorderWidth. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.AppointmentStyle.OnBorderWidthChanged(Xamarin.Forms.BindableObject,System.Double,System.Double)">
+            <summary>
+            Invoked whenever the <c>BorderWidth</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.AppointmentStyle.BorderWidth">
+            <summary>
+            Gets or sets the BorderWidth. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>BorderWidth</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.AppointmentStyle.BorderCornerRadiusProperty">
+            <summary>
+            Gets or sets the BorderCornerRadius. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.AppointmentStyle.OnBorderCornerRadiusChanged(Xamarin.Forms.BindableObject,System.Double,System.Double)">
+            <summary>
+            Invoked whenever the <c>BorderCornerRadius</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.AppointmentStyle.BorderCornerRadius">
+            <summary>
+            Gets or sets the BorderCornerRadius. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>BorderCornerRadius</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.AppointmentStyle.BorderColorProperty">
+            <summary>
+            Gets or sets the BorderColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.AppointmentStyle.OnBorderColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>BorderColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.AppointmentStyle.BorderColor">
+            <summary>
+            Gets or sets the BorderColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>BorderColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.AppointmentStyle.SelectionBorderColorProperty">
+            <summary>
+            Gets or sets the SelectionBorderColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.AppointmentStyle.OnSelectionBorderColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>SelectionBorderColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.AppointmentStyle.SelectionBorderColor">
+            <summary>
+            Gets or sets the SelectionBorderColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>SelectionBorderColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.AppointmentStyle.SelectionTextColorProperty">
+            <summary>
+            Gets or sets the SelectionTextColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.AppointmentStyle.OnSelectionTextColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>SelectionTextColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.AppointmentStyle.SelectionTextColor">
+            <summary>
+            Gets or sets the SelectionTextColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>SelectionTextColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.TextStyleProperty">
+            <summary>
+            Gets or sets the DateTextPosition. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.OnTextStyleChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Font,Xamarin.Forms.Font)">
+            <summary>
+            Invoked whenever the <c>DateTextPosition</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.TextStyle">
+            <summary>
+            Gets or sets the TextStyle. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>DayViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TextStyle</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.TextSizeProperty">
+            <summary>
+            Gets or sets the DateTextSize. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.OnDateTextSizeChanged(Xamarin.Forms.BindableObject,System.Double,System.Double)">
+            <summary>
+            Invoked whenever the <c>DateTextSize</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.TextSize">
+            <summary>
+            Gets or sets the DateTextSize. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>DayViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>DateTextSize</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.TextColorProperty">
+            <summary>
+            Gets or sets the TextColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.OnTextColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>TextColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.TextColor">
+            <summary>
+            Gets or sets the TextColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TextColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.BackgroundColorProperty">
+            <summary>
+            Gets or sets the TextColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.OnBackgroundColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>TextColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.BackgroundColor">
+            <summary>
+            Gets or sets the TextColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TextColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.TodayBackgroundColorProperty">
+            <summary>
+            Gets or sets the TodayBackgroundColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.OnTodayBackgroundColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>TodayBackgroundColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.TodayBackgroundColor">
+            <summary>
+            Gets or sets the TodayBackgroundColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TodayBackgroundColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.TodayTextColorProperty">
+            <summary>
+            Gets or sets the TodayTextColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.OnTodayTextColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>TodayTextColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.TodayTextColor">
+            <summary>
+            Gets or sets the TodayTextColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TodayTextColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.PreviousMonthTextColorProperty">
+            <summary>
+            Gets or sets the PreviousMonthTextColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.OnPreviousMonthTextColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>PreviousMonthTextColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.PreviousMonthTextColor">
+            <summary>
+            Gets or sets the PreviousMonthTextColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>PreviousMonthTextColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.PreviousMonthBackgroundColorProperty">
+            <summary>
+            Gets or sets the PreviousMonthBackgroundColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.OnPreviousMonthBackgroundColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>PreviousMonthBackgroundColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.PreviousMonthBackgroundColor">
+            <summary>
+            Gets or sets the PreviousMonthBackgroundColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>PreviousMonthBackgroundColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.NextMonthBackgroundColorProperty">
+            <summary>
+            Gets or sets the NextMonthBackgroundColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.OnNextMonthBackgroundColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>NextMonthBackgroundColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.NextMonthBackgroundColor">
+            <summary>
+            Gets or sets the NextMonthBackgroundColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>NextMonthBackgroundColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.NextMonthTextColorProperty">
+            <summary>
+            Gets or sets the NextMonthTextColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.OnNextMonthTextColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>NextMonthTextColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.MonthViewCellStyle.NextMonthTextColor">
+            <summary>
+            Gets or sets the NextMonthTextColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>NextMonthTextColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.HeaderStyle.BackgroundColorProperty">
+            <summary>
+            Gets or sets the BackgroundColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.HeaderStyle.OnBackgroundColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>BackgroundColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.HeaderStyle.BackgroundColor">
+            <summary>
+            Gets or sets the BackgroundColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>BackgroundColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.HeaderStyle.TextColorProperty">
+            <summary>
+            Gets or sets the TextColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.HeaderStyle.OnTextColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>TextColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.HeaderStyle.TextColor">
+            <summary>
+            Gets or sets the TextColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TextColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.HeaderStyle.TextSizeProperty">
+            <summary>
+            Gets or sets the TextSize. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.HeaderStyle.OnTextSizeChanged(Xamarin.Forms.BindableObject,System.Double,System.Double)">
+            <summary>
+            Invoked whenever the <c>TextSize</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.HeaderStyle.TextSize">
+            <summary>
+            Gets or sets the TextSize. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TextSize</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.HeaderStyle.TextStyleProperty">
+            <summary>
+            Gets or sets the TextStyle. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.HeaderStyle.OnTextStyleChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Font,Xamarin.Forms.Font)">
+            <summary>
+            Invoked whenever the <c>TextStyle</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.HeaderStyle.TextStyle">
+            <summary>
+            Gets or sets the TextStyle. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TextStyle</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ViewHeaderStyle.DayTextColorProperty">
+            <summary>
+            Gets or sets the DayTextColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.ViewHeaderStyle.OnDayTextColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>DayTextColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.ViewHeaderStyle.DayTextColor">
+            <summary>
+            Gets or sets the DayTextColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>DayTextColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ViewHeaderStyle.BackgroundColorProperty">
+            <summary>
+            Gets or sets the BackgroundColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.ViewHeaderStyle.OnBackgroundColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>BackgroundColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.ViewHeaderStyle.BackgroundColor">
+            <summary>
+            Gets or sets the BackgroundColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>BackgroundColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ViewHeaderStyle.DayTextStyleProperty">
+            <summary>
+            Gets or sets the DayTextStyle. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.ViewHeaderStyle.OnDayTextStyleChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Font,Xamarin.Forms.Font)">
+            <summary>
+            Invoked whenever the <c>DayTextStyle</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.ViewHeaderStyle.DayTextStyle">
+            <summary>
+            Gets or sets the DayTextStyle. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>DayTextStyle</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ViewHeaderStyle.DateTextColorProperty">
+            <summary>
+            Gets or sets the DateTextColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.ViewHeaderStyle.OnDateTextColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>DateTextColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.ViewHeaderStyle.DateTextColor">
+            <summary>
+            Gets or sets the DateTextColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>DateTextColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ViewHeaderStyle.DateTextStyleProperty">
+            <summary>
+            Gets or sets the DateTextStyle. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.ViewHeaderStyle.OnDateTextStyleChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Font,Xamarin.Forms.Font)">
+            <summary>
+            Invoked whenever the <c>DateTextStyle</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.ViewHeaderStyle.DateTextStyle">
+            <summary>
+            Gets or sets the DateTextStyle. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>DateTextStyle</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ViewHeaderStyle.DayTextSizeProperty">
+            <summary>
+            Gets or sets the DayTextSize. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.ViewHeaderStyle.OnDayTextSizeChanged(Xamarin.Forms.BindableObject,System.Double,System.Double)">
+            <summary>
+            Invoked whenever the <c>DayTextSize</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.ViewHeaderStyle.DayTextSize">
+            <summary>
+            Gets or sets the DayTextSize. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>DayTextSize</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.ViewHeaderStyle.DateTextSizeProperty">
+            <summary>
+            Gets or sets the DateTextSize. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.ViewHeaderStyle.OnDateTextSizeChanged(Xamarin.Forms.BindableObject,System.Double,System.Double)">
+            <summary>
+            Invoked whenever the <c>DateTextSize</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.ViewHeaderStyle.DateTextSize">
+            <summary>
+            Gets or sets the DateTextSize. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>DateTextSize</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="T:Syncfusion.SfSchedule.XForms.IClearObjects">
+            <summary>
+            IClearObjects is a interface which clears the objects.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.CellStyle.TextStyleProperty">
+            <summary>
+            Gets or sets the DateTextPosition. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.CellStyle.OnTextStyleChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Font,Xamarin.Forms.Font)">
+            <summary>
+            Invoked whenever the <c>DateTextPosition</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.CellStyle.TextStyle">
+            <summary>
+            Gets or sets the TextStyle. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>DayViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TextStyle</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.CellStyle.TextSizeProperty">
+            <summary>
+            Gets or sets the DateTextSize. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.CellStyle.OnDateTextSizeChanged(Xamarin.Forms.BindableObject,System.Double,System.Double)">
+            <summary>
+            Invoked whenever the <c>DateTextSize</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.CellStyle.TextSize">
+            <summary>
+            Gets or sets the DateTextSize. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>DayViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>DateTextSize</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.CellStyle.TextColorProperty">
+            <summary>
+            Gets or sets the TextColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.CellStyle.OnTextColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>TextColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.CellStyle.TextColor">
+            <summary>
+            Gets or sets the TextColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TextColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.CellStyle.BackgroundColorProperty">
+            <summary>
+            Gets or sets the TextColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.CellStyle.OnBackgroundColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>TextColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.CellStyle.BackgroundColor">
+            <summary>
+            Gets or sets the TextColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TextColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthInlineViewStyle.TextColorProperty">
+            <summary>
+            Gets or sets the TextColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.MonthInlineViewStyle.OnTextColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>TextColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.MonthInlineViewStyle.TextColor">
+            <summary>
+            Gets or sets the TextColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TextColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthInlineViewStyle.BackgroundColorProperty">
+            <summary>
+            Gets or sets the BackgroundColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.MonthInlineViewStyle.OnBackgroundColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>BackgroundColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.MonthInlineViewStyle.BackgroundColor">
+            <summary>
+            Gets or sets the BackgroundColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>BackgroundColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthInlineViewStyle.TextSizeProperty">
+            <summary>
+            Gets or sets the TextSize. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.MonthInlineViewStyle.OnTextSizeChanged(Xamarin.Forms.BindableObject,System.Double,System.Double)">
+            <summary>
+            Invoked whenever the <c>NonWorkingHoursTimeSlotBorderColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.MonthInlineViewStyle.TextSize">
+            <summary>
+            Gets or sets the TextSize. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TextSize</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthInlineViewStyle.TextStyleProperty">
+            <summary>
+            Gets or sets the TextStyle. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.MonthInlineViewStyle.OnTextStyleChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Font,Xamarin.Forms.Font)">
+            <summary>
+            Invoked whenever the <c>TextStyle</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.MonthInlineViewStyle.TextStyle">
+            <summary>
+            Gets or sets the TextStyle. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TextStyle</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthInlineViewStyle.TimeTextColorProperty">
+            <summary>
+            Gets or sets the TimeTextColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.MonthInlineViewStyle.OnTimeTextColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>TimeTextColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.MonthInlineViewStyle.TimeTextColor">
+            <summary>
+            Gets or sets the TimeTextColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TimeTextColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthInlineViewStyle.TimeTextSizeProperty">
+            <summary>
+            Gets or sets the TimeTextSize. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.MonthInlineViewStyle.OnTimeTextSizeChanged(Xamarin.Forms.BindableObject,System.Double,System.Double)">
+            <summary>
+            Invoked whenever the <c>NonWorkingHoursTimeSlotBorderColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.MonthInlineViewStyle.TimeTextSize">
+            <summary>
+            Gets or sets the TimeTextSize. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TimeTextSize</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.MonthInlineViewStyle.TimeTextFormatProperty">
+            <summary>
+            Gets or sets the TimeTextFormat. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.MonthInlineViewStyle.OnTimeTextFormatChanged(Xamarin.Forms.BindableObject,System.String,System.String)">
+            <summary>
+            Invoked whenever the <c>TimeTextFormat</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.MonthInlineViewStyle.TimeTextFormat">
+            <summary>
+            Gets or sets the TimeTextFormat. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TimeTextFormat</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SelectionStyle.BackgroundColorProperty">
+            <summary>
+            Gets or sets the BackgroundColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.SelectionStyle.OnBackgroundColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>BackgroundColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SelectionStyle.BackgroundColor">
+            <summary>
+            Gets or sets the BackgroundColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>BackgroundColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SelectionStyle.BorderThicknessProperty">
+            <summary>
+            Gets or sets the BorderThickness. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.SelectionStyle.OnBorderThicknessChanged(Xamarin.Forms.BindableObject,System.Double,System.Double)">
+            <summary>
+            Invoked whenever the <c>BorderThickness</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SelectionStyle.BorderThickness">
+            <summary>
+            Gets or sets the BorderWidth. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>BorderWidth</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SelectionStyle.BorderCornerRadiusProperty">
+            <summary>
+            Gets or sets the BorderCornerRadius. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.SelectionStyle.OnBorderCornerRadiusChanged(Xamarin.Forms.BindableObject,System.Double,System.Double)">
+            <summary>
+            Invoked whenever the <c>BorderCornerRadius</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SelectionStyle.BorderCornerRadius">
+            <summary>
+            Gets or sets the BorderCornerRadius. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>BorderCornerRadius</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.SelectionStyle.BorderColorProperty">
+            <summary>
+            Gets or sets the BorderColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.SelectionStyle.OnBorderColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>BorderColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.SelectionStyle.BorderColor">
+            <summary>
+            Gets or sets the BorderColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>BorderColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WeekNumberStyle.TextColorProperty">
+            <summary>
+            Gets or sets the TextColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.WeekNumberStyle.OnTextColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>TextColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WeekNumberStyle.TextColor">
+            <summary>
+            Gets or sets the TextColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TextColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WeekNumberStyle.BackgroundColorProperty">
+            <summary>
+            Gets or sets the BackgroundColor. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.WeekNumberStyle.OnBackgroundColorChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Color,Xamarin.Forms.Color)">
+            <summary>
+            Invoked whenever the <c>BackgroundColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WeekNumberStyle.BackgroundColor">
+            <summary>
+            Gets or sets the BackgroundColor. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>BackgroundColor</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WeekNumberStyle.TextSizeProperty">
+            <summary>
+            Gets or sets the TextSize. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.WeekNumberStyle.OnTextSizeChanged(Xamarin.Forms.BindableObject,System.Double,System.Double)">
+            <summary>
+            Invoked whenever the <c>NonWorkingHoursTimeSlotBorderColor</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WeekNumberStyle.TextSize">
+            <summary>
+            Gets or sets the TextSize. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TextSize</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+        <member name="F:Syncfusion.SfSchedule.XForms.WeekNumberStyle.TextStyleProperty">
+            <summary>
+            Gets or sets the TextStyle. This is a bindable property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfSchedule.XForms.WeekNumberStyle.OnTextStyleChanged(Xamarin.Forms.BindableObject,Xamarin.Forms.Font,Xamarin.Forms.Font)">
+            <summary>
+            Invoked whenever the <c>TextStyle</c> property changes.
+            </summary>
+            <param name="bindable"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="P:Syncfusion.SfSchedule.XForms.WeekNumberStyle.TextStyle">
+            <summary>
+            Gets or sets the TextStyle. This is a bindable property.
+            </summary>
+            <remarks>It's a readonly property and we need to set the <c>Palette</c> of the <c>WorkWeekViewSettings</c> class.</remarks>
+            <example>
+            This sample code shows how to set the <c>TextStyle</c> property of the chart. 
+            <code>
+            void MyPage()
+            {
+            	
+            	
+            	
+            	
+            }
+            </code> 
+            </example>
+        </member>
+    </members>
+</doc>

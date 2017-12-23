@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="iSched3.Views.AppointmentDetailPage" Title="{Binding Title}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Remove" Command="{Binding RemoveAppointmentCommand}"/>
+        <ToolbarItem Text="Edit" Command="{Binding EditAppointmentCommand}"/>
+    </ContentPage.ToolbarItems>
+        <StackLayout Padding="30">
+            <Label Text="Comments" FontSize="12"/>
+            <Label Text="{Binding Comments}"/>
+            <Label Text="Start" FontSize="12"/>
+            <Label Text="{Binding StartTime}"/>
+            <Label Text="End" FontSize="12"/>
+            <Label Text="{Binding EndTime}"/>
+        </StackLayout>
+</ContentPage>

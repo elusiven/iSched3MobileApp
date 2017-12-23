@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="iSched3.Views.LoginPage" Title="Login to iSched">
+    <StackLayout Padding="30">
+        <Entry Placeholder="Username" Text="{Binding UserName}"/>
+        <Entry Placeholder="Password" Text="{Binding Password}" IsPassword="True"/>
+        <Button Text="Login" BackgroundColor="Gray" TextColor="White" Command="{Binding LoginCommand}"/>
+        <Button Text="Create an account" BackgroundColor="Green" TextColor="White" Command="{Binding RegisterCommand}"/>
+        <ActivityIndicator IsVisible="{Binding IsLoading}" IsRunning="{Binding IsLoading}" HorizontalOptions="Center"/>
+    </StackLayout>
+</ContentPage>

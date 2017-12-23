@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             xmlns:behaviors="clr-namespace:iSched3.Behaviors;assembly=iSched3"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="iSched3.Views.RegisterPage" Title="Register an account">
+    <StackLayout Padding="30">
+        <Entry Placeholder="First Name" Text="{Binding FirstName}">
+            <Entry.Behaviors>
+                <behaviors:MaxLengthValidatorBehavior MaxLength="20"/>
+                <behaviors:MinLengthValidatorBehavior MinLength="3"/>
+            </Entry.Behaviors>
+        </Entry>
+        <Entry Placeholder="Last Name" Text="{Binding LastName}">
+            <Entry.Behaviors>
+                <behaviors:MaxLengthValidatorBehavior MaxLength="20"/>
+                <behaviors:MinLengthValidatorBehavior MinLength="3"/>
+            </Entry.Behaviors>
+        </Entry>
+        <Entry Placeholder="Username" Text="{Binding UserName}">
+            <Entry.Behaviors>
+                <behaviors:MaxLengthValidatorBehavior MaxLength="20"/>
+                <behaviors:MinLengthValidatorBehavior MinLength="4"/>
+            </Entry.Behaviors>
+        </Entry>
+        <Entry Placeholder="Email" Text="{Binding Email}">
+            <Entry.Behaviors>
+                <behaviors:EmailValidatorBehavior IsValid="{Binding IsEmailValid, Mode=TwoWay}"/>
+            </Entry.Behaviors>
+        </Entry>
+        <Entry Placeholder="Confirm Email" Text="{Binding ConfirmEmail}"/>
+        <Entry Placeholder="Password" Text="{Binding Password}" IsPassword="true">
+            <Entry.Behaviors>
+                <behaviors:PasswordValidatorBehavior/>
+            </Entry.Behaviors>
+        </Entry>
+        <Entry Placeholder="Confirm Password" Text="{Binding ConfirmPassword}" IsPassword="true"/>
+        
+        <Button Text="Register" BackgroundColor="Green" TextColor="White" Command="{Binding RegisterCommand}"/>
+        <ActivityIndicator IsVisible="{Binding IsLoading}" IsRunning="{Binding IsLoading}" HorizontalOptions="Center"/>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             xmlns:l="clr-namespace:iSched3.Helpers;assembly=iSched3"
+             xmlns:behaviors="clr-namespace:Behaviors;assembly=Behaviors"
+             xmlns:xForms="clr-namespace:Syncfusion.SfSchedule.XForms;assembly=Syncfusion.SfSchedule.XForms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="iSched3.Views.DashboardPage" Title="Your Calendar">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Views" Command="{Binding ChangeViewsCommand}"/>
+        <ToolbarItem Text="Refresh" Command="{Binding RefreshAppointmentsCommand}"/>
+        <ToolbarItem Text="Add" Order="Primary" Command="{Binding AddNewAppointmentCommand}"/>
+    </ContentPage.ToolbarItems>
+    <xForms:SfSchedule x:Name="Sfschedule" 
+                       ScheduleView="{Binding CalendarView}" 
+                       DataSource="{Binding Appointments}" 
+                       EnableNavigation="True" 
+                       ShowAppointmentsInline="True">
+        <xForms:SfSchedule.WeekViewSettings>
+            <xForms:WeekViewSettings ShowAllDay="True" />
+        </xForms:SfSchedule.WeekViewSettings>
+        <xForms:SfSchedule.Behaviors>
+            <behaviors:EventHandlerBehavior EventName="MonthInlineAppointmentTapped">
+                <behaviors:InvokeCommandAction Command="{Binding ShowAppointmentCommand}"
+                                               Converter="{l:AppointmentTappedEventArgsConverter}" />
+            </behaviors:EventHandlerBehavior>
+            
+            <behaviors:EventHandlerBehavior EventName="ScheduleCellTapped">
+                <behaviors:InvokeCommandAction Command="{Binding ShowAppointmentCellCommand}" Converter="{l:AppointmentCellTappedEventArgsConverter}"/>
+            </behaviors:EventHandlerBehavior>
+        </xForms:SfSchedule.Behaviors>
+    </xForms:SfSchedule>
+</ContentPage>
